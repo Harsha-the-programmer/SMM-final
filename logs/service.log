@@ -1447,3 +1447,54 @@
 2026-03-21 18:07:11,833 | INFO | Fetched 0 posts
 2026-03-21 18:07:11,833 | INFO | Scheduled 4 config(s).
 2026-03-21 18:07:11,843 | INFO | Sending grouped report (frequency=15) to ['harshatheprogrammer@gmail.com', 'madhurilatha.g@inspiredgeit.com'] with 4 posts
+2026-03-26 15:06:52,236 | INFO | file_cache is only supported with oauth2client<4.0.0
+2026-03-26 15:06:53,119 | INFO | Starting Social Media Monitoring Scheduler
+2026-03-26 15:06:53,119 | INFO | Starting Social Media Monitoring Scheduler
+2026-03-26 15:06:53,119 | INFO | Loading active configs and scheduling jobs
+2026-03-26 15:06:53,167 | INFO | Scheduling config 4 every 15 minutes
+2026-03-26 15:06:53,171 | INFO | Starting fetch job for config id=4 (frequency=15m)
+2026-03-26 15:06:53,171 | INFO | Fetching tweets for config 4 with query: (tnelection OR TNelections2026 OR TNPolitics OR tamilnadupolitics OR tamilnadu OR Election2026 OR ECI OR SIR) (place:"India" OR place:"Tamil Nadu") -is:retweet -is:reply lang:en
+2026-03-26 15:06:53,171 | INFO | Start time for fetching: 2026-03-26T09:21:53.171841+00:00
+2026-03-26 15:06:53,171 | INFO | Fetch interval (minutes): 15
+2026-03-26 15:06:53,171 | INFO | Current time: 2026-03-26T09:36:53.171841+00:00
+2026-03-26 15:06:54,102 | INFO | YouTube returned 50 videos
+2026-03-26 15:07:29,415 | INFO | Instagram collection completed for config 4 with 95 posts
+2026-03-26 15:07:29,415 | INFO | Instagram returned 95 posts
+2026-03-26 15:07:29,415 | INFO | Instagram returned 95 posts
+2026-03-26 15:07:29,478 | INFO | Fetched 139 posts
+2026-03-26 15:07:29,478 | INFO | Scheduling config 5 every 15 minutes
+2026-03-26 15:07:29,478 | INFO | Starting fetch job for config id=5 (frequency=15m)
+2026-03-26 15:07:29,482 | INFO | Fetching tweets for config 5 with query: (SpokespersonECI OR ECISVEEP OR TNelectionsCEO OR TNELECTIONS2026 OR voterlist OR voterlistTN OR electoralroll OR voterid) (place:"India" OR place:"Tamil Nadu") -is:retweet -is:reply lang:en
+2026-03-26 15:07:29,482 | INFO | Start time for fetching: 2026-03-26T09:22:29.482194+00:00
+2026-03-26 15:07:29,482 | INFO | Fetch interval (minutes): 15
+2026-03-26 15:07:29,482 | INFO | Current time: 2026-03-26T09:37:29.482194+00:00
+2026-03-26 15:07:30,208 | INFO | YouTube returned 4 videos
+2026-03-26 15:07:55,888 | INFO | Instagram collection completed for config 5 with 30 posts
+2026-03-26 15:07:55,888 | INFO | Instagram returned 30 posts
+2026-03-26 15:07:55,888 | INFO | Instagram returned 30 posts
+2026-03-26 15:07:55,901 | INFO | Fetched 10 posts
+2026-03-26 15:07:55,901 | INFO | Scheduling config 6 every 15 minutes
+2026-03-26 15:07:55,902 | INFO | Starting fetch job for config id=6 (frequency=15m)
+2026-03-26 15:07:55,902 | INFO | Fetching tweets for config 6 with query: (voterregistration OR BLO OR pollingbooth OR votercomplaint OR voterissues OR missingvoter OR deletedvoter OR fakevoter) (place:"India" OR place:"Tamil Nadu") -is:retweet -is:reply lang:en
+2026-03-26 15:07:55,902 | INFO | Start time for fetching: 2026-03-26T09:22:55.902891+00:00
+2026-03-26 15:07:55,902 | INFO | Fetch interval (minutes): 15
+2026-03-26 15:07:55,902 | INFO | Current time: 2026-03-26T09:37:55.902891+00:00
+2026-03-26 15:07:56,707 | INFO | YouTube returned 4 videos
+2026-03-26 15:08:24,168 | INFO | Instagram collection completed for config 6 with 1 posts
+2026-03-26 15:08:24,168 | INFO | Instagram returned 1 posts
+2026-03-26 15:08:24,168 | INFO | Instagram returned 1 posts
+2026-03-26 15:08:24,173 | INFO | Fetched 5 posts
+2026-03-26 15:08:24,173 | INFO | Scheduling config 7 every 15 minutes
+2026-03-26 15:08:24,177 | INFO | Starting fetch job for config id=7 (frequency=15m)
+2026-03-26 15:08:24,177 | INFO | Fetching tweets for config 7 with query: (duplicatevoters OR cashforvotes OR votebuying OR electionbribe OR freebies OR fakenews OR electionfakenews OR tnpoliceoffl OR chennaicorp) (place:"India" OR place:"Tamil Nadu") -is:retweet -is:reply lang:en
+2026-03-26 15:08:24,177 | INFO | Start time for fetching: 2026-03-26T09:23:24.177126+00:00
+2026-03-26 15:08:24,177 | INFO | Fetch interval (minutes): 15
+2026-03-26 15:08:24,177 | INFO | Current time: 2026-03-26T09:38:24.177126+00:00
+2026-03-26 15:08:24,876 | INFO | YouTube returned 3 videos
+2026-03-26 15:08:34,489 | WARNING | Instagram hashtag search error for 'freebies': {'message': 'This API call could not be completed due to resource limits', 'type': 'OAuthException', 'code': 18, 'error_subcode': 2207034, 'is_transient': False, 'error_user_title': 'Hashtag search limit exceeded, retry new hashtag in a week!', 'error_user_msg': 'An Instagram business can only search a limited number of unique hashtags per week through the Graph API. Check out the developer documentation to know about the list of hashtags you can access. https://developers.facebook.com/docs/instagram-api/hashtag-search', 'fbtrace_id': 'AgU3iND9nveyVnVJRkX9PmX'}
+2026-03-26 15:08:34,489 | INFO | Instagram collection completed for config 7 with 0 posts
+2026-03-26 15:08:34,489 | INFO | Instagram returned 0 posts
+2026-03-26 15:08:34,489 | INFO | Instagram returned 0 posts
+2026-03-26 15:08:34,493 | INFO | Fetched 3 posts
+2026-03-26 15:08:34,493 | INFO | Scheduled 4 config(s).
+2026-03-26 15:08:34,502 | INFO | Sending grouped report (frequency=15) to ['harshatheprogrammer@gmail.com', 'madhurilatha.g@inspiredgeit.com'] with 157 posts
