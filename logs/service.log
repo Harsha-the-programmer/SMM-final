@@ -1498,3 +1498,278 @@
 2026-03-26 15:08:34,493 | INFO | Fetched 3 posts
 2026-03-26 15:08:34,493 | INFO | Scheduled 4 config(s).
 2026-03-26 15:08:34,502 | INFO | Sending grouped report (frequency=15) to ['harshatheprogrammer@gmail.com', 'madhurilatha.g@inspiredgeit.com'] with 157 posts
+2026-04-03 16:09:14,134 | INFO | file_cache is only supported with oauth2client<4.0.0
+2026-04-03 16:09:19,451 | INFO | Starting Social Media Monitoring Scheduler
+2026-04-03 16:09:19,451 | INFO | Starting Social Media Monitoring Scheduler
+2026-04-03 16:09:19,451 | INFO | Loading active configs and scheduling jobs
+2026-04-03 16:09:19,507 | INFO | Scheduling config 4 every 15 minutes
+2026-04-03 16:09:19,512 | INFO | Starting fetch job for config id=4 (frequency=15m)
+2026-04-03 16:09:19,512 | INFO | Fetching tweets for config 4 with query: (tnelection OR TNelections2026 OR TNPolitics OR tamilnadupolitics OR tamilnadu OR Election2026 OR ECI OR SIR) (place:"India" OR place:"Tamil Nadu") -is:retweet -is:reply lang:en
+2026-04-03 16:09:19,512 | INFO | Start time for fetching: 2026-04-03T10:24:19.512172+00:00
+2026-04-03 16:09:19,512 | INFO | Fetch interval (minutes): 15
+2026-04-03 16:09:19,512 | INFO | Current time: 2026-04-03T10:39:19.512172+00:00
+2026-04-03 16:09:20,923 | INFO | YouTube returned 20 videos
+2026-04-03 16:09:26,466 | WARNING | Instagram media fetch error for 'tnelection': {'message': '(#100) Please read documentation for supported fields.', 'type': 'OAuthException', 'code': 100, 'fbtrace_id': 'AcOByjlIEJ3g1Ur56LVcBpI'}
+2026-04-03 16:09:31,496 | WARNING | Instagram media fetch error for 'tnelections2026': {'message': '(#100) Please read documentation for supported fields.', 'type': 'OAuthException', 'code': 100, 'fbtrace_id': 'A4qm9eAPMs4Vz1Aq2ajhrPt'}
+2026-04-03 16:09:36,223 | WARNING | Instagram media fetch error for 'tnpolitics': {'message': '(#100) Please read documentation for supported fields.', 'type': 'OAuthException', 'code': 100, 'fbtrace_id': 'AdZqts_bVRfBo4762uZiYIX'}
+2026-04-03 16:09:41,297 | WARNING | Instagram media fetch error for 'tamilnadupolitics': {'message': '(#100) Please read documentation for supported fields.', 'type': 'OAuthException', 'code': 100, 'fbtrace_id': 'AYSQ09akg29mRGlbQX_TJyi'}
+2026-04-03 16:09:46,996 | WARNING | Instagram media fetch error for 'tamilnadu': {'message': '(#100) Please read documentation for supported fields.', 'type': 'OAuthException', 'code': 100, 'fbtrace_id': 'ANLymvJ-Bfzend6aHqdQNq8'}
+2026-04-03 16:09:46,996 | INFO | Instagram collection completed for config 4 with 0 posts
+2026-04-03 16:09:46,996 | INFO | Instagram returned 0 posts
+2026-04-03 16:09:46,996 | INFO | Instagram returned 0 posts
+2026-04-03 16:09:47,004 | INFO | Fetched 20 posts
+2026-04-03 16:09:47,004 | INFO | Scheduling config 5 every 15 minutes
+2026-04-03 16:09:47,009 | INFO | Starting fetch job for config id=5 (frequency=15m)
+2026-04-03 16:09:47,009 | INFO | Fetching tweets for config 5 with query: (SpokespersonECI OR ECISVEEP OR TNelectionsCEO OR TNELECTIONS2026 OR voterlist OR voterlistTN OR electoralroll OR voterid) (place:"India" OR place:"Tamil Nadu") -is:retweet -is:reply lang:en
+2026-04-03 16:09:47,009 | INFO | Start time for fetching: 2026-04-03T10:24:47.009617+00:00
+2026-04-03 16:09:47,009 | INFO | Fetch interval (minutes): 15
+2026-04-03 16:09:47,009 | INFO | Current time: 2026-04-03T10:39:47.009617+00:00
+2026-04-03 16:09:47,708 | INFO | YouTube returned 2 videos
+2026-04-03 16:10:02,924 | WARNING | Instagram media fetch error for 'ecisveep': {'message': '(#100) Please read documentation for supported fields.', 'type': 'OAuthException', 'code': 100, 'fbtrace_id': 'AFXXVGIkCPSQGm5JNqNKaj8'}
+2026-04-03 16:10:11,460 | WARNING | Instagram media fetch error for 'tnelections2026': {'message': '(#100) Please read documentation for supported fields.', 'type': 'OAuthException', 'code': 100, 'fbtrace_id': 'AjzQEXOqEWOcVuJ0EcVyeC_'}
+2026-04-03 16:10:15,820 | WARNING | Instagram media fetch error for 'voterlist': {'message': '(#100) Please read documentation for supported fields.', 'type': 'OAuthException', 'code': 100, 'fbtrace_id': 'AHYkE8drrnVNc4Q_QWfAnCv'}
+2026-04-03 16:10:15,820 | INFO | Instagram collection completed for config 5 with 0 posts
+2026-04-03 16:10:15,820 | INFO | Instagram returned 0 posts
+2026-04-03 16:10:15,820 | INFO | Instagram returned 0 posts
+2026-04-03 16:10:15,823 | INFO | Fetched 2 posts
+2026-04-03 16:10:15,823 | INFO | Scheduling config 6 every 15 minutes
+2026-04-03 16:10:15,828 | INFO | Starting fetch job for config id=6 (frequency=15m)
+2026-04-03 16:10:15,828 | INFO | Fetching tweets for config 6 with query: (voterregistration OR BLO OR pollingbooth OR votercomplaint OR voterissues OR missingvoter OR deletedvoter OR fakevoter) (place:"India" OR place:"Tamil Nadu") -is:retweet -is:reply lang:en
+2026-04-03 16:10:15,828 | INFO | Start time for fetching: 2026-04-03T10:25:15.828290+00:00
+2026-04-03 16:10:15,828 | INFO | Fetch interval (minutes): 15
+2026-04-03 16:10:15,828 | INFO | Current time: 2026-04-03T10:40:15.828290+00:00
+2026-04-03 16:10:16,553 | INFO | YouTube returned 0 videos
+2026-04-03 16:10:23,716 | WARNING | Instagram media fetch error for 'voterregistration': {'message': '(#100) Please read documentation for supported fields.', 'type': 'OAuthException', 'code': 100, 'fbtrace_id': 'AkLuP08rEFptllE9c8SfzYb'}
+2026-04-03 16:10:29,124 | WARNING | Instagram media fetch error for 'blo': {'message': '(#100) Please read documentation for supported fields.', 'type': 'OAuthException', 'code': 100, 'fbtrace_id': 'ARXM75XfyPgFW7C5Fc_mkzo'}
+2026-04-03 16:10:34,883 | WARNING | Instagram media fetch error for 'voterissues': {'message': '(#100) Please read documentation for supported fields.', 'type': 'OAuthException', 'code': 100, 'fbtrace_id': 'Avh6rcqbIhjsgjQbIqwjk-n'}
+2026-04-03 16:10:34,883 | INFO | Instagram collection completed for config 6 with 0 posts
+2026-04-03 16:10:34,883 | INFO | Instagram returned 0 posts
+2026-04-03 16:10:34,883 | INFO | Instagram returned 0 posts
+2026-04-03 16:10:34,884 | INFO | Fetched 0 posts
+2026-04-03 16:10:34,884 | INFO | Scheduling config 7 every 15 minutes
+2026-04-03 16:10:34,889 | INFO | Starting fetch job for config id=7 (frequency=15m)
+2026-04-03 16:10:34,889 | INFO | Fetching tweets for config 7 with query: (duplicatevoters OR cashforvotes OR votebuying OR electionbribe OR freebies OR fakenews OR electionfakenews OR tnpoliceoffl OR chennaicorp) (place:"India" OR place:"Tamil Nadu") -is:retweet -is:reply lang:en
+2026-04-03 16:10:34,889 | INFO | Start time for fetching: 2026-04-03T10:25:34.889487+00:00
+2026-04-03 16:10:34,889 | INFO | Fetch interval (minutes): 15
+2026-04-03 16:10:34,889 | INFO | Current time: 2026-04-03T10:40:34.889487+00:00
+2026-04-03 16:10:35,642 | INFO | YouTube returned 2 videos
+2026-04-03 16:10:39,594 | WARNING | Instagram media fetch error for 'cashforvotes': {'message': '(#100) Please read documentation for supported fields.', 'type': 'OAuthException', 'code': 100, 'fbtrace_id': 'APURrrjXJSYN3Yj40oeR6sv'}
+2026-04-03 16:10:42,393 | WARNING | Instagram media fetch error for 'votebuying': {'message': '(#100) Please read documentation for supported fields.', 'type': 'OAuthException', 'code': 100, 'fbtrace_id': 'A2pxSl7K8doIwHAOA_UiZzQ'}
+2026-04-03 16:10:51,216 | WARNING | Instagram media fetch error for 'freebies': {'message': '(#100) Please read documentation for supported fields.', 'type': 'OAuthException', 'code': 100, 'fbtrace_id': 'AFDjQFYN2c273Fv25vjLwWm'}
+2026-04-03 16:10:51,216 | INFO | Instagram collection completed for config 7 with 0 posts
+2026-04-03 16:10:51,216 | INFO | Instagram returned 0 posts
+2026-04-03 16:10:51,216 | INFO | Instagram returned 0 posts
+2026-04-03 16:10:51,220 | INFO | Fetched 2 posts
+2026-04-03 16:10:51,220 | INFO | Scheduled 4 config(s).
+2026-04-03 16:10:51,229 | INFO | Sending grouped report (frequency=15) to ['harshatheprogrammer@gmail.com', 'madhurilatha.g@inspiredgeit.com'] with 24 posts
+2026-04-03 19:38:54,889 | INFO | file_cache is only supported with oauth2client<4.0.0
+2026-04-03 19:39:00,688 | INFO | Starting Social Media Monitoring Scheduler
+2026-04-03 19:39:00,689 | INFO | Starting Social Media Monitoring Scheduler
+2026-04-03 19:39:00,689 | INFO | Loading active configs and scheduling jobs
+2026-04-03 19:39:00,755 | INFO | Scheduling config 4 every 15 minutes
+2026-04-03 19:39:00,760 | INFO | Starting fetch job for config id=4 (frequency=15m)
+2026-04-03 19:39:00,760 | INFO | Fetching tweets for config 4 with query: (tnelection OR TNelections2026 OR TNPolitics OR tamilnadupolitics OR tamilnadu OR Election2026 OR ECI OR SIR) (place:"India" OR place:"Tamil Nadu") -is:retweet -is:reply lang:en
+2026-04-03 19:39:00,760 | INFO | Start time for fetching: 2026-04-03T13:54:00.760531+00:00
+2026-04-03 19:39:00,760 | INFO | Fetch interval (minutes): 15
+2026-04-03 19:39:00,760 | INFO | Current time: 2026-04-03T14:09:00.760531+00:00
+2026-04-03 19:39:01,730 | INFO | YouTube returned 15 videos
+2026-04-03 19:39:01,870 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-04-03 19:39:01,908 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-04-03 19:39:01,944 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-04-03 19:39:01,975 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-04-03 19:39:02,011 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-04-03 19:39:02,047 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-04-03 19:39:02,079 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-04-03 19:39:02,112 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-04-03 19:39:02,145 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-04-03 19:39:36,021 | INFO | Instagram collection completed for config 4 with 96 posts
+2026-04-03 19:39:36,022 | INFO | Instagram returned 96 posts
+2026-04-03 19:39:36,022 | INFO | Instagram returned 96 posts
+2026-04-03 19:39:36,100 | INFO | Fetched 109 posts
+2026-04-03 19:39:36,100 | INFO | Scheduling config 5 every 15 minutes
+2026-04-03 19:39:36,105 | INFO | Starting fetch job for config id=5 (frequency=15m)
+2026-04-03 19:39:36,105 | INFO | Fetching tweets for config 5 with query: (SpokespersonECI OR ECISVEEP OR TNelectionsCEO OR TNELECTIONS2026 OR voterlist OR voterlistTN OR electoralroll OR voterid) (place:"India" OR place:"Tamil Nadu") -is:retweet -is:reply lang:en
+2026-04-03 19:39:36,105 | INFO | Start time for fetching: 2026-04-03T13:54:36.105673+00:00
+2026-04-03 19:39:36,105 | INFO | Fetch interval (minutes): 15
+2026-04-03 19:39:36,105 | INFO | Current time: 2026-04-03T14:09:36.105673+00:00
+2026-04-03 19:39:36,833 | INFO | YouTube returned 3 videos
+2026-04-03 19:39:36,929 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-04-03 19:41:14,863 | INFO | file_cache is only supported with oauth2client<4.0.0
+2026-04-03 19:41:15,910 | INFO | Starting Social Media Monitoring Scheduler
+2026-04-03 19:41:15,910 | INFO | Starting Social Media Monitoring Scheduler
+2026-04-03 19:41:15,910 | INFO | Loading active configs and scheduling jobs
+2026-04-03 19:41:15,924 | INFO | Scheduling config 4 every 15 minutes
+2026-04-03 19:41:15,929 | INFO | Starting fetch job for config id=4 (frequency=15m)
+2026-04-03 19:41:15,929 | INFO | Fetching tweets for config 4 with query: (tnelection OR TNelections2026 OR TNPolitics OR tamilnadupolitics OR tamilnadu OR Election2026 OR ECI OR SIR) (place:"India" OR place:"Tamil Nadu") -is:retweet -is:reply lang:en
+2026-04-03 19:41:15,929 | INFO | Start time for fetching: 2026-04-03T13:56:15.929578+00:00
+2026-04-03 19:41:15,929 | INFO | Fetch interval (minutes): 15
+2026-04-03 19:41:15,929 | INFO | Current time: 2026-04-03T14:11:15.929578+00:00
+2026-04-03 19:41:16,881 | INFO | YouTube returned 17 videos
+2026-04-03 19:41:17,071 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-04-03 19:41:17,156 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-04-03 19:42:23,465 | INFO | file_cache is only supported with oauth2client<4.0.0
+2026-04-03 19:42:24,522 | INFO | Starting Social Media Monitoring Scheduler
+2026-04-03 19:42:24,522 | INFO | Starting Social Media Monitoring Scheduler
+2026-04-03 19:42:24,522 | INFO | Loading active configs and scheduling jobs
+2026-04-03 19:42:24,539 | INFO | Scheduling config 4 every 15 minutes
+2026-04-03 19:42:24,543 | INFO | Starting fetch job for config id=4 (frequency=15m)
+2026-04-03 19:42:24,543 | INFO | Fetching tweets for config 4 with query: (tnelection OR TNelections2026 OR TNPolitics OR tamilnadupolitics OR tamilnadu OR Election2026 OR ECI OR SIR) (place:"India" OR place:"Tamil Nadu") -is:retweet -is:reply lang:en
+2026-04-03 19:42:24,543 | INFO | Start time for fetching: 2026-04-03T13:57:24.543570+00:00
+2026-04-03 19:42:24,544 | INFO | Fetch interval (minutes): 15
+2026-04-03 19:42:24,544 | INFO | Current time: 2026-04-03T14:12:24.544590+00:00
+2026-04-03 19:42:25,542 | INFO | YouTube returned 17 videos
+2026-04-03 19:42:25,751 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-03 19:42:25,901 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-03 19:42:26,027 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-03 19:42:26,237 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-03 19:42:26,355 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-03 19:43:02,185 | INFO | Instagram collection completed for config 4 with 99 posts
+2026-04-03 19:43:02,185 | INFO | Instagram returned 99 posts
+2026-04-03 19:43:02,185 | INFO | Instagram returned 99 posts
+2026-04-03 19:43:02,218 | INFO | Fetched 33 posts
+2026-04-03 19:43:02,219 | INFO | Scheduling config 5 every 15 minutes
+2026-04-03 19:43:02,223 | INFO | Starting fetch job for config id=5 (frequency=15m)
+2026-04-03 19:43:02,223 | INFO | Fetching tweets for config 5 with query: (SpokespersonECI OR ECISVEEP OR TNelectionsCEO OR TNELECTIONS2026 OR voterlist OR voterlistTN OR electoralroll OR voterid) (place:"India" OR place:"Tamil Nadu") -is:retweet -is:reply lang:en
+2026-04-03 19:43:02,223 | INFO | Start time for fetching: 2026-04-03T13:58:02.223188+00:00
+2026-04-03 19:43:02,223 | INFO | Fetch interval (minutes): 15
+2026-04-03 19:43:02,223 | INFO | Current time: 2026-04-03T14:13:02.223188+00:00
+2026-04-03 19:43:03,008 | INFO | YouTube returned 3 videos
+2026-04-03 19:43:03,254 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-03 19:43:27,512 | INFO | Instagram collection completed for config 5 with 40 posts
+2026-04-03 19:43:27,512 | INFO | Instagram returned 40 posts
+2026-04-03 19:43:27,512 | INFO | Instagram returned 40 posts
+2026-04-03 19:43:27,531 | INFO | Fetched 24 posts
+2026-04-03 19:43:27,531 | INFO | Scheduling config 6 every 15 minutes
+2026-04-03 19:43:27,536 | INFO | Starting fetch job for config id=6 (frequency=15m)
+2026-04-03 19:43:27,536 | INFO | Fetching tweets for config 6 with query: (voterregistration OR BLO OR pollingbooth OR votercomplaint OR voterissues OR missingvoter OR deletedvoter OR fakevoter) (place:"India" OR place:"Tamil Nadu") -is:retweet -is:reply lang:en
+2026-04-03 19:43:27,536 | INFO | Start time for fetching: 2026-04-03T13:58:27.536548+00:00
+2026-04-03 19:43:27,536 | INFO | Fetch interval (minutes): 15
+2026-04-03 19:43:27,536 | INFO | Current time: 2026-04-03T14:13:27.536548+00:00
+2026-04-03 19:43:28,543 | INFO | YouTube returned 4 videos
+2026-04-03 19:43:28,747 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-03 19:43:28,998 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-03 19:43:29,226 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-03 19:43:55,724 | INFO | Instagram collection completed for config 6 with 3 posts
+2026-04-03 19:43:55,724 | INFO | Instagram returned 3 posts
+2026-04-03 19:43:55,724 | INFO | Instagram returned 3 posts
+2026-04-03 19:43:55,731 | INFO | Fetched 6 posts
+2026-04-03 19:43:55,731 | INFO | Scheduling config 7 every 15 minutes
+2026-04-03 19:43:55,736 | INFO | Starting fetch job for config id=7 (frequency=15m)
+2026-04-03 19:43:55,736 | INFO | Fetching tweets for config 7 with query: (duplicatevoters OR cashforvotes OR votebuying OR electionbribe OR freebies OR fakenews OR electionfakenews OR tnpoliceoffl OR chennaicorp) (place:"India" OR place:"Tamil Nadu") -is:retweet -is:reply lang:en
+2026-04-03 19:43:55,736 | INFO | Start time for fetching: 2026-04-03T13:58:55.736171+00:00
+2026-04-03 19:43:55,736 | INFO | Fetch interval (minutes): 15
+2026-04-03 19:43:55,736 | INFO | Current time: 2026-04-03T14:13:55.736171+00:00
+2026-04-03 19:43:56,504 | INFO | YouTube returned 8 videos
+2026-04-03 19:43:56,730 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-03 19:43:56,912 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-03 19:43:57,077 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-03 19:43:57,285 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-03 19:43:57,378 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-03 19:44:13,783 | INFO | Instagram collection completed for config 7 with 8 posts
+2026-04-03 19:44:13,783 | INFO | Instagram returned 8 posts
+2026-04-03 19:44:13,783 | INFO | Instagram returned 8 posts
+2026-04-03 19:44:13,794 | INFO | Fetched 15 posts
+2026-04-03 19:44:13,794 | INFO | Scheduled 4 config(s).
+2026-04-03 19:44:13,802 | INFO | Sending grouped report (frequency=15) to ['harshatheprogrammer@gmail.com', 'madhurilatha.g@inspiredgeit.com'] with 187 posts
+2026-04-03 19:49:15,705 | INFO | Loading active configs and scheduling jobs
+2026-04-03 19:49:15,715 | INFO | Scheduling config 4 every 15 minutes
+2026-04-03 19:49:15,720 | INFO | Starting fetch job for config id=4 (frequency=15m)
+2026-04-03 19:49:15,720 | INFO | Fetching tweets for config 4 with query: (tnelection OR TNelections2026 OR TNPolitics OR tamilnadupolitics OR tamilnadu OR Election2026 OR ECI OR SIR) (place:"India" OR place:"Tamil Nadu") -is:retweet -is:reply lang:en
+2026-04-03 19:49:15,720 | INFO | Start time for fetching: 2026-04-03T14:04:15.720152+00:00
+2026-04-03 19:49:15,720 | INFO | Fetch interval (minutes): 15
+2026-04-03 19:49:15,720 | INFO | Current time: 2026-04-03T14:19:15.720152+00:00
+2026-04-03 19:49:16,996 | INFO | YouTube returned 50 videos
+2026-04-03 19:49:17,545 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-03 19:49:17,810 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-03 19:49:18,072 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-03 19:49:18,358 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-03 19:49:18,628 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-03 19:49:18,755 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-03 19:49:18,968 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-03 19:49:19,083 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-03 19:49:19,420 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-03 19:49:19,633 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-03 19:49:19,847 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-03 19:49:20,054 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-03 19:49:20,258 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-03 19:49:20,362 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-03 19:49:20,586 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-03 19:49:20,759 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-03 19:49:20,988 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-03 19:49:21,240 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-03 19:49:21,340 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-03 19:49:21,667 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-03 19:49:21,907 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-03 19:49:22,155 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-03 19:49:22,652 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-03 19:49:22,934 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-03 19:49:23,105 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-03 19:49:23,359 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-03 19:49:23,500 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-03 19:49:23,594 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-03 19:49:23,801 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-03 19:49:24,013 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-03 19:49:24,085 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-03 19:49:24,085 | INFO | Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2026-04-03 19:49:26,327 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-03 19:49:26,420 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-03 19:49:26,420 | INFO | Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2026-04-03 19:49:28,579 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-03 19:49:28,625 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-03 19:49:28,625 | INFO | Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2026-04-03 19:49:30,806 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-03 19:49:30,870 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-03 19:49:30,870 | INFO | Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2026-04-03 19:49:33,134 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-03 19:49:33,211 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-03 19:49:33,212 | INFO | Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2026-04-03 19:49:35,421 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-03 19:49:35,455 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-03 19:49:35,455 | INFO | Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2026-04-03 19:49:37,704 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-03 19:50:14,116 | INFO | Instagram collection completed for config 4 with 98 posts
+2026-04-03 19:50:14,116 | INFO | Instagram returned 98 posts
+2026-04-03 19:50:14,117 | INFO | Instagram returned 98 posts
+2026-04-03 19:50:14,156 | INFO | Fetched 89 posts
+2026-04-03 19:50:14,156 | INFO | Scheduling config 5 every 15 minutes
+2026-04-03 19:50:14,160 | INFO | Starting fetch job for config id=5 (frequency=15m)
+2026-04-03 19:50:14,160 | INFO | Fetching tweets for config 5 with query: (SpokespersonECI OR ECISVEEP OR TNelectionsCEO OR TNELECTIONS2026 OR voterlist OR voterlistTN OR electoralroll OR voterid) (place:"India" OR place:"Tamil Nadu") -is:retweet -is:reply lang:en
+2026-04-03 19:50:14,160 | INFO | Start time for fetching: 2026-04-03T14:05:14.160589+00:00
+2026-04-03 19:50:14,160 | INFO | Fetch interval (minutes): 15
+2026-04-03 19:50:14,161 | INFO | Current time: 2026-04-03T14:20:14.161629+00:00
+2026-04-03 19:50:14,992 | INFO | YouTube returned 2 videos
+2026-04-03 19:50:15,321 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-03 19:50:38,440 | INFO | Instagram collection completed for config 5 with 39 posts
+2026-04-03 19:50:38,440 | INFO | Instagram returned 39 posts
+2026-04-03 19:50:38,440 | INFO | Instagram returned 39 posts
+2026-04-03 19:50:38,454 | INFO | Fetched 2 posts
+2026-04-03 19:50:38,454 | INFO | Scheduling config 6 every 15 minutes
+2026-04-03 19:50:38,460 | INFO | Starting fetch job for config id=6 (frequency=15m)
+2026-04-03 19:50:38,460 | INFO | Fetching tweets for config 6 with query: (voterregistration OR BLO OR pollingbooth OR votercomplaint OR voterissues OR missingvoter OR deletedvoter OR fakevoter) (place:"India" OR place:"Tamil Nadu") -is:retweet -is:reply lang:en
+2026-04-03 19:50:38,460 | INFO | Start time for fetching: 2026-04-03T14:05:38.460002+00:00
+2026-04-03 19:50:38,460 | INFO | Fetch interval (minutes): 15
+2026-04-03 19:50:38,460 | INFO | Current time: 2026-04-03T14:20:38.460002+00:00
+2026-04-03 19:50:39,524 | INFO | YouTube returned 2 videos
+2026-04-03 19:51:01,007 | INFO | Instagram collection completed for config 6 with 4 posts
+2026-04-03 19:51:01,007 | INFO | Instagram returned 4 posts
+2026-04-03 19:51:01,007 | INFO | Instagram returned 4 posts
+2026-04-03 19:51:01,012 | INFO | Fetched 1 posts
+2026-04-03 19:51:01,012 | INFO | Scheduling config 7 every 15 minutes
+2026-04-03 19:51:01,016 | INFO | Starting fetch job for config id=7 (frequency=15m)
+2026-04-03 19:51:01,016 | INFO | Fetching tweets for config 7 with query: (duplicatevoters OR cashforvotes OR votebuying OR electionbribe OR freebies OR fakenews OR electionfakenews OR tnpoliceoffl OR chennaicorp) (place:"India" OR place:"Tamil Nadu") -is:retweet -is:reply lang:en
+2026-04-03 19:51:01,016 | INFO | Start time for fetching: 2026-04-03T14:06:01.016917+00:00
+2026-04-03 19:51:01,016 | INFO | Fetch interval (minutes): 15
+2026-04-03 19:51:01,016 | INFO | Current time: 2026-04-03T14:21:01.016917+00:00
+2026-04-03 19:51:01,831 | INFO | YouTube returned 7 videos
+2026-04-03 19:51:02,048 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-03 19:51:02,307 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-03 19:51:02,556 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-03 19:51:02,772 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-03 19:51:03,034 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-03 19:51:03,121 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-03 19:51:19,769 | INFO | Instagram collection completed for config 7 with 7 posts
+2026-04-03 19:51:19,769 | INFO | Instagram returned 7 posts
+2026-04-03 19:51:19,769 | INFO | Instagram returned 7 posts
+2026-04-03 19:51:19,776 | INFO | Fetched 7 posts
+2026-04-03 19:51:19,776 | INFO | Scheduled 4 config(s).
+2026-04-03 19:51:19,783 | INFO | Sending grouped report (frequency=15) to ['harshatheprogrammer@gmail.com', 'madhurilatha.g@inspiredgeit.com'] with 286 posts

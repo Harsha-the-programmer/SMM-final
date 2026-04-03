@@ -540,9 +540,11 @@ def run_fetch_job_for_config(config, cur, db):
                     VALUES (%s,%s,%s)
                 """,(post_id, sentiment, score))
 
+                display_name = post.get("username") or ""
+
                 demo = estimate_demographics(
-                    post.get("username",""),
-                    post.get("username",""),
+                    display_name,
+                    display_name,
                     ""
                 )
 

@@ -1,5 +1,6 @@
 import re
 import gender_guesser.detector as gender
+from parsers.ai_gender import guess_gender_ai
 
 # Initialize detector once
 detector = gender.Detector()
@@ -13,6 +14,28 @@ MALE_SIGNALS = [
     "he","him","boy","man","male","mr","sir","guy",
     "king","dad","father","husband"
 ]
+
+
+def should_use_ai(name):
+
+    if not name:
+        return False
+
+    name = name.strip()
+
+    # too long → likely not a real name
+    if len(name.split()) > 3:
+        return False
+
+    # must contain alphabets
+    if not any(c.isalpha() for c in name):
+        return False
+
+    # avoid usernames / noisy strings
+    if any(sym in name for sym in ["_", "@", "#", "123"]):
+        return False
+
+    return True
 
 
 def estimate_demographics(username, display_name, bio=""):
@@ -37,6 +60,13 @@ def estimate_demographics(username, display_name, bio=""):
             gender = "female"
         elif guess in ["male", "mostly_male"]:
             gender = "male"
+
+    # Step 3: AI fallback (only if safe)
+    if gender == "unknown" and should_use_ai(display_name):
+        ai_gender = guess_gender_ai(display_name)
+
+        if ai_gender in ["male", "female"]:
+            gender = ai_gender
 
     return {
         "estimated_gender": gender,
